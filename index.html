@@ -1,69 +1,34 @@
 <!DOCTYPE html>
-<html lang="th" class="scroll-smooth">
+<html lang="th">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>My Awesome Portfolio</title>
-    <script src="https://cdn.tailwindcss.com"></script>
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
-</head>
-<body class="bg-slate-900 text-slate-100 font-sans antialiased">
+    <title>หน้าแรก - Portfolio</title>
+    <link rel="stylesheet" href="style.css"> </head>
+<body>
 
-    <nav class="sticky top-0 z-50 bg-slate-950/80 backdrop-blur-md border-b border-slate-800">
-        <div class="max-w-5xl mx-auto px-6 py-4 flex justify-between items-center">
-            <a href="#home" class="text-xl font-bold bg-gradient-to-r blue-400 from-cyan-400 to-blue-500 bg-clip-text text-transparent">MY.PORTFOLIO</a>
-            <div class="hidden md:flex space-x-8 font-medium">
-                <a href="#home" class="hover:text-cyan-400 transition">หน้าแรก</a>
-                <a href="#about" class="hover:text-cyan-400 transition">ประวัติส่วนตัว</a>
-                <a href="#education" class="hover:text-cyan-400 transition">การศึกษา</a>
-                <a href="#skills" class="hover:text-cyan-400 transition">ทักษะ</a>
-                <a href="#contact" class="hover:text-cyan-400 transition">ติดต่อ</a>
-            </div>
-        </div>
-    </nav>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="index.html" class="active">หน้าแรก</a></li>
+                <li><a href="about.html">ประวัติส่วนตัว</a></li>
+                <li><a href="education.html">ประวัติการศึกษา</a></li>
+                <li><a href="skills.html">ความสามารถและทักษะ</a></li>
+                <li><a href="contact.html">ช่องทางการติดต่อ</a></li>
+            </ul>
+        </nav>
+    </header>
 
-    <section id="home" class="min-h-screen flex flex-col justify-center items-center text-center px-6">
-        <div class="space-y-4">
-            <p class="text-cyan-400 tracking-widest uppercase font-semibold">ยินดีต้อนรับสู่โลกของฉัน</p>
-            <h1 class="text-5xl md:text-7xl font-extrabold tracking-tight">
-                สวัสดี, ผมชื่อ <span class="bg-gradient-to-r from-cyan-400 to-indigo-500 bg-clip-text text-transparent">สมชาย สายโค้ด</span>
-            </h1>
-            <p class="text-slate-400 text-lg md:text-xl max-w-2xl mx-auto">
-                ผู้หลงใหลในการสร้างสรรค์เว็บไซต์ที่สวยงาม ทันสมัย และตอบโจทย์ผู้ใช้งาน
-            </p>
-            <div class="pt-6">
-                <a href="#about" class="bg-gradient-to-r from-cyan-500 to-blue-600 hover:from-cyan-600 hover:to-blue-700 text-white font-bold px-8 py-3 rounded-full shadow-lg shadow-cyan-500/20 transition transform hover:-translate-y-1">
-                    ทำความรู้จักกันเพิ่มเติม <i class="fa-solid fa-arrow-down ml-2"></i>
-                </a>
-            </div>
-        </div>
-    </section>
+    <main>
+        <section class="hero">
+            <h1>ยินดีต้อนรับสู่ Portfolio ของฉัน</h1>
+            <p>นี่คือเว็บไซต์รวมผลงาน ประวัติ และทักษะความสามารถของฉันครับ</p>
+        </section>
+    </main>
 
-    <section id="about" class="py-24 bg-slate-950">
-        <div class="max-w-4xl mx-auto px-6">
-            <h2 class="text-3xl font-bold text-center mb-12"><i class="fa-solid fa-user text-cyan-400 mr-2"></i> ประวัติส่วนตัว</h2>
-            <div class="grid md:grid-cols-3 gap-8 items-center">
-                <div class="flex justify-center">
-                    <div class="w-48 h-48 rounded-2xl bg-gradient-to-tr from-cyan-400 to-indigo-500 p-1 shadow-xl">
-                        <div class="w-full h-full bg-slate-900 rounded-2xl flex items-center justify-center overflow-hidden">
-                            <i class="fa-solid fa-user-astronaut text-6xl text-slate-500"></i>
-                        </div>
-                    </div>
-                </div>
-                <div class="md:col-span-2 space-y-4 text-slate-300">
-                    <p class="text-lg font-semibold text-white">เกี่ยวกับตัวผมเอง</p>
-                    <p>ผมเป็นนักพัฒนาเว็บรุ่นใหม่ที่ชอบเรียนรู้เทคโนโลยีใหม่ๆ อยู่เสมอ มีความสุขทุกครั้งที่ได้เห็นโค้ดที่เขียนเปลี่ยนเป็นหน้าเว็บที่ใช้งานได้จริงบนหน้าจอ</p>
-                    <div class="grid grid-cols-2 gap-4 pt-2 text-sm">
-                        <p><strong class="text-cyan-400">ชื่อเล่น:</strong> นนท์</p>
-                        <p><strong class="text-cyan-400">อายุ:</strong> 18 ปี</p>
-                        <p><strong class="text-cyan-400">ความสนใจ:</strong> Web Dev, UI/UX Design</p>
-                        <p><strong class="text-cyan-400">สถานะ:</strong> กำลังมองหาโอกาสใหม่ๆ</p>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
+    <footer>
+        <p>&copy; 2026 My Portfolio. All Rights Reserved.</p>
+    </footer>
 
-    <section id="education" class="py-24">
-        <div class="max-w-3xl mx-auto px-6">
-            <h2 class="text-3xl font-bold text-center mb-12"><i class="fa-solid fa-graduation-cap text-cyan-
+</body>
+</html>
