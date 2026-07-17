@@ -1,57 +1,29 @@
-<!DOCTYPE html>
-<html lang="th">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>ประวัติการศึกษา - Portfolio</title>
-    <link rel="stylesheet" href="style.css">
-</head>
-<body>
-
-    <header>
-        <nav>
-            <ul>
-                <li><a href="index.html">หน้าแรก</a></li>
-                <li><a href="about.html">ประวัติส่วนตัว</a></li>
-                <li><a href="education.html" class="active">ประวัติการศึกษา</a></li>
-                <li><a href="skills.html">ความสามารถและทักษะ</a></li>
-                <li><a href="contact.html">ช่องทางการติดต่อ</a></li>
-            </ul>
-        </nav>
-    </header>
-
-    <main>
-        <section class="education-section">
-            <h1>ประวัติการศึกษา</h1>
+<section id="education">
+        <h2 class="section-title">ประวัติการศึกษา</h2>
+        
+        <div class="education-timeline">
             
-            <table border="1" style="width:100%; max-width:800px; margin: 0 auto; border-collapse: collapse;">
-                <thead>
-                    <tr style="background-color: #2c3e50; color: white;">
-                        <th style="padding: 10px;">ปีการศึกษา</th>
-                        <th style="padding: 10px;">ระดับการศึกษา / วุฒิการศึกษา</th>
-                        <th style="padding: 10px;">สถานศึกษา</th>
-                    </tr>
-                </thead>
-                <tbody>
-                    <tr>
-                        <td style="padding: 10px;">2565 - ปัจจุบัน</td>
-                        <td style="padding: 10px;">ปริญญาตรี สาขาวิทยาการคอมพิวเตอร์</td>
-                        <td style="padding: 10px;">มหาวิทยาลัย......</td>
-                    </tr>
-                    <tr>
-                        <td style="padding: 10px;">2562 - 2564</td>
-                        <td style="padding: 10px;">มัธยมศึกษาตอนปลาย (สายวิทย์-คณิต)</td>
-                        <td style="padding: 10px;">โรงเรียน......</td>
-                    </tr>
-                </tbody>
-            </table>
+            <div class="edu-card">
+                <div class="edu-dot"></div>
+                <div class="edu-time">2024 - ปัจจุบัน</div>
+                <div class="edu-content">
+                    <h3>ระดับปริญญาตรี</h3>
+                    <h4>มหาวิทยาลัยเทคโนโลยีชื่อดัง</h4>
+                    <p class="edu-major">สาขาวิชา วิทยาการคอมพิวเตอร์ (Computer Science)</p>
+                    <p class="edu-details">เน้นศึกษาเกี่ยวกับการพัฒนาซอฟต์แวร์, โครงสร้างข้อมูล (Data Structures), และการออกแบบอัลกอริทึม</p>
+                </div>
+            </div>
 
-        </section>
-    </main>
-
-    <footer>
-        <p>&copy; 2026 My Portfolio. All Rights Reserved.</p>
-    </footer>
-
-</body>
-</html>
+            <div class="edu-card">
+                <div class="edu-dot"></div>
+                <div class="edu-time">2021 - 2024</div>
+                <div class="edu-content">
+                    <h3>ระดับมัธยมศึกษาตอนปลาย</h3>
+                    <h4>โรงเรียนมัธยมศึกษาประจำจังหวัด</h4>
+                    <p class="edu-major">แผนการเรียน วิทยาศาสตร์ - คณิตศาสตร์</p>
+                    <p class="edu-details">เข้าร่วมกิจกรรมชมรมคอมพิวเตอร์ และเริ่มต้นศึกษาการพัฒนาเว็บไซต์พื้นฐานด้วยตนเอง</p>
+                </div>
+            </div>
+            
+        </div>
+    </section>
