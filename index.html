@@ -8,16 +8,27 @@
 </head>
 <body>
     <nav>
-        <a href="index.html">หน้าแรก</a>
+        <a href="index.html" class="active">หน้าแรก</a>
         <a href="about.html">ประวัติส่วนตัว</a>
         <a href="education.html">ประวัติการศึกษา</a>
         <a href="skills.html">ทักษะ</a>
         <a href="contact.html">ติดต่อ</a>
     </nav>
 
-    <div class="container">
-        <h1>ยินดีต้อนรับสู่ Portfolio ของฉัน</h1>
-        <p>สวัสดีครับ! นี่คือเว็บไซต์รวบรวมข้อมูล ผลงาน และทักษะความสามารถของฉัน คุณสามารถเลือกดูข้อมูลแต่ละส่วนได้จากเมนูด้านบนครับ</p>
+    <div class="container" style="text-align: center;">
+        <div class="profile-container">
+            <img src="profile.jpg" alt="รูปโปรไฟล์ของฉัน" class="profile-img" onerror="this.src='https://via.placeholder.com/180?text=Your+Image'">
+        </div>
+
+        <h1>สวัสดีครับ! ยินดีต้อนรับ 👋</h1>
+        <p class="subtitle">
+            ยินดีต้อนรับสู่ Portfolio ของผม รวบรวมผลงาน ประวัติการศึกษา และทักษะความสามารถครับ
+        </p>
+        
+        <div>
+            <a href="about.html" class="contact-btn">ทำความรู้จักฉัน</a>
+            <a href="contact.html" class="contact-btn secondary">ติดต่อฉัน</a>
+        </div>
     </div>
 </body>
 </html>
